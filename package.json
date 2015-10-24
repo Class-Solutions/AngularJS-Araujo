@@ -1,0 +1,19 @@
+{
+  "name": "angularjstests",
+  "version": "1.0.0",
+  "description": "AngularJS Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Class-Solutions/AngularJS-Araujo.git"
+  },
+  "author": "lra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Class-Solutions/AngularJS-Araujo/issues"
+  },
+  "homepage": "https://github.com/Class-Solutions/AngularJS-Araujo#readme"
+}
