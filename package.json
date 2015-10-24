@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Class-Solutions/AngularJS-Araujo/issues"
   },
-  "homepage": "https://github.com/Class-Solutions/AngularJS-Araujo#readme"
+  "homepage": "https://github.com/Class-Solutions/AngularJS-Araujo#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
