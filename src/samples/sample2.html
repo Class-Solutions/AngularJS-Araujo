@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html data-ng-app="mathApp">
+
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First AngularJS App</title>
+	<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/app/css/app.css" />
+	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="/node_modules/angular/angular.min.js"></script>
+	<script src="/app/js/sample2/app.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-forget="#navbar" aria-expanded="false"
+				aria-controls="navbar" tabindex="3" accesskey="c">
+					<span class="sr-only">
+							Toggle Navigation
+						</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">First App</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active">
+						<a href="/index.html">Home</a>
+					</li>
+					<li>
+						<a href="/about.html">About</a>
+					</li>
+					<li>
+						<a href="/contact.html">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div>
+			<h1>First App</h1>
+			<div data-ng-controller="BasicMathController">
+				<p class="lead">
+					<input type="number" tabindex="1" accesskey="a" data-ng-model="a" /> +
+					<input type="number" tabindex="2" accesskey="b" data-ng-model="b" /> = {{a + b}}
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
