@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="helloWorldApp">
 	<head lang="en">
 		<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -44,12 +44,12 @@
 		<script type="text/javascript">
 			console.log(HelloController);
 		</script>
-		<div class="container" ng-controller="HelloController">
+		<div class="container" ng-controller="HelloCtrl">
 			<div>
 				<h1>First App</h1>
 				<p class="lead">
 					<div>
-						<p>{{greeting.text}}</p>
+						<p>{{greeting.text}}, World!</p>
 					</div>
 				</p>
 			</div>
